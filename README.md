@@ -15,7 +15,7 @@ ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa
 ![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 At the time I designed this, the FT230X was the simplest of FTDI's USB UARTs.
-It has *TXD*, *RXD*, *RTS*, and *CTS* serial signals, plus for general purpose
+It has *TXD*, *RXD*, *RTS*, and *CTS* serial signals, plus four general purpose
 I/O pins that have several available functions (see the data sheet).  The
 default configuration for two of those pins is to drive transmit and receive
 LEDs, and so I went ahead and included those LEDs on the board along with
@@ -50,13 +50,15 @@ and I have set up a shared project on PCBWay [here](XXX).
 * 1 FT230XS USB UART IC in an SSOP-16 package (Mouser part number [**895-FT230XS-R**](https://www.mouser.com/ProductDetail/895-FT230XS-R)).
 * 1 Molex 105017-0001 micro USB B connector (Mouser part number [**538-105017-0001**](https://www.mouser.com/ProductDetail/538-105017-0001)).
 * 1 4.7uF tantalum capacitor (such as Mouser part number [**647-F951E475MPAAQ2**](https://www.mouser.com/ProductDetail/647-F951E475MPAAQ2)).
+* 1 ferrite bead for HF noise suppression on the USB +5V rail.  I just used the
+example part listed in the FT230X data sheet (Mouser part number [**875-MI0805K400R-10**](https://www.mouser.com/ProductDetail/875-MI0805K400R-10)).
 * 2 100nF ceramic capacitors.
 * 1 10nF ceramic capacitor.
 * 2 47pF ceramic capacitors.
 * 2 270 ohm 1/8W resistors.
 * 2 27 ohm 1/8W resistors.
-* 2 LEDs.  I like to use green for Tx (such as Mouser part numer [**710-150080GS75000**](https://www.mouser.com/ProductDetail/710-150080GS75000) and red for
-Rx (such as Mouser part numer [**710-150080RS75000**](https://www.mouser.com/ProductDetail/710-150080RS75000).
+* 2 LEDs.  I like to use green for Tx (such as Mouser part numer [**710-150080GS75000**](https://www.mouser.com/ProductDetail/710-150080GS75000)) and red for
+Rx (such as Mouser part numer [**710-150080RS75000**](https://www.mouser.com/ProductDetail/710-150080RS75000)).
 * 2 standard 1x5 2.54mm pin headers for the signal connections.
 * 2 standard 1x2 2.54mm pin headers and jumper caps for the LED enable jumpers.
 
