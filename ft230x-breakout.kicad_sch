@@ -6,8 +6,8 @@
 
   (title_block
     (title "FT230X Breakout")
-    (date "2024-07-03")
-    (rev "1.0")
+    (date "2024-07-05")
+    (rev "1.1")
     (company "Copyright (c) 2024 Jason R. Thorpe.  See LICENSE.")
   )
 
@@ -890,11 +890,11 @@
     (uuid ffc3ee68-4218-46b4-aa44-235e34b16013)
   )
 
-  (text "Red" (at 224.155 72.009 0)
+  (text "Red" (at 200.914 71.628 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39419a29-0f0e-4cef-9a28-4d2dd1c903ab)
   )
-  (text "Green" (at 199.009 71.882 0)
+  (text "Green" (at 222.504 71.628 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d491715e-6156-4f3e-b00e-424e37dc8c9b)
   )
@@ -1072,7 +1072,7 @@
     (property "Reference" "D102" (at 232.41 72.0725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Rx" (at 232.41 74.6125 90)
+    (property "Value" "Tx" (at 232.41 74.6125 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 229.489 71.12 0)
@@ -1333,7 +1333,7 @@
     (property "Reference" "D101" (at 209.55 72.0725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "Tx" (at 209.55 74.6125 90)
+    (property "Value" "Rx" (at 209.55 74.6125 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 206.121 71.12 0)
@@ -1348,8 +1348,8 @@
     (property "Mouser" "710-150080GS75000" (at 206.121 71.12 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 137309b4-e2e5-4159-972c-b3d15ec9b598))
-    (pin "2" (uuid dd2368ab-5799-4ea8-b17c-fdcb41dbdced))
+    (pin "1" (uuid 9cfcf38b-fbd3-406a-9699-e57d13d8ec0c))
+    (pin "2" (uuid ad27661f-3351-479b-a867-ef9c5b6b2757))
     (instances
       (project "ft230x-breakout"
         (path "/a44934ea-6004-447b-a40b-e1503581aa11"

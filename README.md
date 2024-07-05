@@ -67,6 +67,17 @@ A full reference of all components can be found in [ft230x-breakout-bom.pdf](ft2
 Solder the surface-mount parts before soldering the pin headers.  That's all
 the assembly advice I'm going to give on this one!
 
+## Errata
+
+* In revision 1.0 of the board, there is a silkscreen error: The Tx and Rx
+LED labels are swapped.  This is corrected in revision 1.1.
+
+## Changes
+
+### 1.1
+
+* Corrected the Tx and Rx LED labels on the front silkscreen.
+
 If you have any questions about the board, you can reach out to me on
 Twitter (*[@thorpej](https://twitter.com/thorpej)*) or Mastodon
 (*[@thorpej@mastodon.sdf.org](https://mastodon.sdf.org/@thorpej)*).  You
