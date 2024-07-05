@@ -75,8 +75,10 @@ which has this and other retrocomputing related content.
 
 ## Errata
 
-* In revision 1.0 of the board, there is a silkscreen error: The Tx and Rx
-LED labels are swapped.  This is corrected in revision 1.1.
+### 1.0
+
+* There is a silkscreen error: The Tx and Rx LED labels are swapped.  This
+is corrected in revision 1.1.
 
 ## Changes
 
